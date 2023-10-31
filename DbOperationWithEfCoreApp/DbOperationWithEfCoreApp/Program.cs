@@ -10,7 +10,7 @@ namespace DbOperationWithEfCoreApp
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<AppDbContext>(options => {
-                options.UseSqlServer();
+                options.UseSqlServer(builder.Configuration.GetConnectionString("AppDab"));
             });
             // Add services to the container.
 

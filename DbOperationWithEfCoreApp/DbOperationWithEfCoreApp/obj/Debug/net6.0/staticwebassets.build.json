@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uT4qNphgmkunp7H6jjTohpaqmrJIteDgSHumLvDHrBM=",
+  "Source": "DbOperationWithEfCoreApp",
+  "BasePath": "_content/DbOperationWithEfCoreApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
