@@ -20,6 +20,7 @@ namespace DbOperationWithEfCoreApp.Controllers
         public async Task<IActionResult> GetAllCurrencies()
         {
             var result = await _appDbContext.Currencies.ToListAsync();
+            // Adding new comment
             //var result = (from currency in  _appDbContext.Currencies
             //             select currency).ToList();
             return Ok(result);
